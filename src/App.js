@@ -13,9 +13,7 @@ function App() {
   return (
     <div id="home" className="App w-[100%] h-[100%]  ">
       
-  
-
-     <Bg />
+      <Bg />
       <Home />
       <About classNameTitle={classNameTitle} />
       <Skill  classNameTitle={classNameTitle} />
