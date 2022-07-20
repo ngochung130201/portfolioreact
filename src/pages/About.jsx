@@ -1,11 +1,16 @@
-import React from "react";
-
+import Aos from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 const About = props => {
-  const {classNameTitle} = props
+  const {classNameTitle,animation} = props;
+  useEffect(()=>{
+    Aos.init({duration:1000});
+    
+   },[])
  
   return (
     <>
-      <div id="about" className="pt-[4rem]  bg-[#101010] w-[100%] text-[#fff] ">
+      <div id="about" data-aos={animation} className="pt-[4rem]  bg-[#101010] w-[100%] text-[#fff] ">
         <div className="  flex flex-col justify-center items-center ">
         {classNameTitle.map((item,index)=>
         <span key={index}

@@ -15,7 +15,7 @@ const Header = () => {
         <a href="/" id="link" className='pr-[2rem]' >
           <img src={logo} alt="" className="w-[70px] rounded-[50%]" />
         </a>
-        <div className="header__nav  dark:bg-blue-700">
+        <div className="header__nav  ">
           <ul className=" flex flex-row  ">
             <li className=" pr-[2rem]">
               <a href="#home" className='font-[500] hover:text-[#1876B2]'  >Home</a>
@@ -44,7 +44,7 @@ const Header = () => {
         <a href="/" id="link" className='pr-[2rem]' >
           <img src={logo} alt="" className="w-[70px] rounded-[50%]" />
         </a>
-        <div className="header__nav  dark:bg-blue-700">
+        <div className="header__nav  ">
           <ul className=" flex flex-row  ">
             <li className=" pr-[2rem]">
               <a href="#home" className='font-[500] hover:text-[#1876B2]'  >Home</a>

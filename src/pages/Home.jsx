@@ -1,4 +1,3 @@
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faArrowCircleUp} from '@fortawesome/free-solid-svg-icons'
 import React,{useState,useEffect} from "react";
@@ -6,8 +5,13 @@ import Header from "../components/Header";
 import Section from "../components/Section/Section";
 
 
+
+
 import "./home.scss";
-const Home = () => {
+const Home = (props) => {
+ const {animation} =props;
+ console.log(animation);
+
   const [showTopBtn, setShowTopBtn] = useState(false);
   useEffect(() => {
       window.addEventListener("scroll", () => {

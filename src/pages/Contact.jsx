@@ -1,7 +1,13 @@
-import React,{useRef} from "react";
-import emailjs,{init} from '@emailjs/browser';
+import React,{useEffect, useRef} from "react";
+import emailjs from '@emailjs/browser';
+import "aos/dist/aos.css";
+import Aos from "aos";
 const Contact = (props) => {
-  const { classNameTitle } = props;
+  const { classNameTitle, animation} = props;
+  useEffect(()=>{
+    Aos.init({duration:1500});
+    Aos.refresh();
+   },[])
   const form = useRef();
   const hanldeSubmit = (e) => {
    
@@ -18,7 +24,7 @@ const Contact = (props) => {
   }
   return (
     <>
-      <div id="contact" className="pt-[4rem] bg-[#101010]  pb-[3rem] w-[100%] text-[#fff]  ">
+      <div id="contact" data-aos={animation} className="pt-[4rem] bg-[#101010]  pb-[3rem] w-[100%] text-[#fff]  ">
         <div className="  flex flex-col justify-center items-center ">
           {classNameTitle.map((item, index) => (
             <span key={index} className={`${item.styleTitle}`}>
@@ -53,7 +59,7 @@ const Contact = (props) => {
 
 
               <textarea
-                className=" h-[10rem] mt-[1rem] w-[100%] px-[1rem] text-[#f3f4f6] rounded-[4px] bg-[#101010] border border-solid border-[#6b7280]
+                className=" h-[10rem]  w-[100%] px-[1rem] text-[#f3f4f6] rounded-[4px] bg-[#101010] border border-solid border-[#6b7280]
                 focus:border-[#1876B2]"
                 type="text"
                 name="message"

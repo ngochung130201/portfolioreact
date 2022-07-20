@@ -1,7 +1,13 @@
-import React from "react";
+import Aos from "aos";
+import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 import { html, react, js,mooge,native, css,tailwindcss,sql,node,sass,figma,bootstrap,mysql,c,flutter,firebase, asp, cshap} from "../assets";
 const Skill = (props) => {
-  const { classNameTitle } = props;
+  const { classNameTitle,animation} = props;
+  useEffect(()=>{
+    Aos.init({duration:1500});
+   
+   },[])
   const skill = [ {
     usingnow : [
       {
@@ -76,7 +82,7 @@ const Skill = (props) => {
   ];
   return (
     <>
-      <div id="skill"className=" pt-[4rem] bg-[#101010] w-[100%] text-[#fff] ">
+      <div id="skill" data-aos={animation}  className=" pt-[4rem] bg-[#101010] w-[100%] text-[#fff] ">
         <div className="  flex flex-col justify-center items-center ">
           {classNameTitle.map((item, index) => (
             <span key={index} className={`${item.styleTitle}`}>

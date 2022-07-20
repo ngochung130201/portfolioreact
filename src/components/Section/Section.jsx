@@ -16,7 +16,7 @@ const Section = () => {
           </div>
         
       </div>
-     <div className="cv lg:flex lg:items-start lg:justify-start flex-col lg:ml-[6.5rem] mt-[1rem] md:flex justify-center md:items-center ">
+     <div className=" lg:flex lg:items-start lg:justify-start flex-col lg:ml-[4rem] mt-[1rem] md:flex justify-center md:items-center ">
       <Button/>
       <Contact/>
      </div>
