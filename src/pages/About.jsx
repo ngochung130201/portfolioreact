@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 const About = props => {
   const {classNameTitle,animation} = props;
   useEffect(()=>{
-    Aos.init({duration:1000});
+    Aos.init({duration:1500});
     
    },[])
  

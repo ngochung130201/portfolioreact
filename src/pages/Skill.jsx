@@ -96,7 +96,7 @@ const Skill = (props) => {
               <>
                 {item.usingnow.map((item, index)=>
                 <>
-                   <li   className="flex justify-center mb-[1rem] items-center mr-[2rem]">
+                   <li   className=" hover:translate-y-2 hover:transition-all hover:ease-in-out hover:duration-300 flex justify-center mb-[1rem] items-center mr-[2rem]">
                   <a
                     href="/"
                     className="flex flex-col justify-center  items-center "
@@ -129,7 +129,7 @@ const Skill = (props) => {
               <>
                 {item.learing.map((item, index)=>
                 <>
-                   <li key={index} className="flex justify-center mb-[1rem] items-center mr-[2rem] ">
+                   <li key={index} className="hover:translate-y-2 hover:transition-all hover:ease-in-out hover:duration-300 flex justify-center mb-[1rem] items-center mr-[2rem] ">
                   <a
                     href="/"
                     className="flex flex-col justify-center  items-center "

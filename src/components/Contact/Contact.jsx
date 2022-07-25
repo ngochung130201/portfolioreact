@@ -5,7 +5,7 @@ import '../../App.scss'
 const Contact = () => {
   return (
     <div>
-      <ul className="flex items-center ">
+      <ul className="flex items-center justify-center ">
         <li>
           <a href="/" className="px-[1.2rem] py-[1rem]   border-[#1876B2]  hover:bg-[#1876B2] transition-all  border-[1px] ml-6 rounded-[50%]">
             <FontAwesomeIcon icon={faFacebook}  className='text-[20px]'/>
