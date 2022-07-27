@@ -63,9 +63,13 @@ a {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #1876B2;
+  border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #1876B2;
+}
+.nav_link {
+  @apply relative font-[500]  after:absolute after:top-6 after:h-0.5 after:w-0 after:bg-[#1876B2] after:left-0 after:bottom-0 hover:after:w-full hover:after:transition-all hover:after:ease-in-out hover:after:duration-500
 }

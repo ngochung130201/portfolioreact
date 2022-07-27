@@ -21,20 +21,20 @@ const Header = () => {
         </a>
         <div className="header__nav  ">
           <ul className=" flex flex-row  ">
-            <li className=" pr-[2rem]">
-              <a href="#home" className='font-[500] hover:text-[#1876B2]'  >Home</a>
+            <li className=" pr-[2rem] ">
+              <a href="#home" className='nav_link '   >Home</a>
             </li>
             <li className="pr-[2rem]">
-              <a href="#about" className='font-[500] hover:text-[#1876B2]'>About</a>
+              <a href="#about" className='nav_link '>About</a>
             </li>
             <li className="pr-[2rem]">
-              <a href="#skill" className='font-[500] hover:text-[#1876B2]'>Skill</a>
+              <a href="#skill" className='nav_link '>Skill</a>
             </li>
             <li className="pr-[2rem]">
-              <a href="#project" className='font-[500] hover:text-[#1876B2]'>Project</a>
+              <a href="#project" className='nav_link '>Project</a>
             </li>
             <li className="pr-[2rem]">
-              <a href="#contact" className='font-[500] hover:text-[#1876B2]'>Contact</a>
+              <a href="#contact" className='nav_link '>Contact</a>
             </li>
           </ul>
         </div>
