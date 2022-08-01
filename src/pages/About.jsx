@@ -14,7 +14,7 @@ const About = props => {
         <div className="  flex flex-col justify-center items-center ">
         {classNameTitle.map((item,index)=>
         <span key={index}
-        className={`${item.styleTitle}`}
+        className={`${item.styleTitle} `}
         >{item.title.about}</span>
         )}
        

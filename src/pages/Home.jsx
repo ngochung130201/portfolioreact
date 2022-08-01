@@ -3,10 +3,6 @@ import {faArrowCircleUp} from '@fortawesome/free-solid-svg-icons'
 import React,{useState,useEffect} from "react";
 import Header from "../components/Header";
 import Section from "../components/Section/Section";
-
-
-
-
 import "./home.scss";
 const Home = (props) => {
  const {animation} =props;
