@@ -50,10 +50,7 @@ const Skill = (props) => {
         name: "Firebase",
         avatar: firebase,
       },
-      {
-        name: "Figma",
-        avatar: figma,
-      },
+     
       
     ],
     learing : [
@@ -85,13 +82,13 @@ const Skill = (props) => {
       <div id="skill" data-aos={animation}  className=" pt-[4rem] bg-[#101010] w-[100%] text-[#fff] ">
         <div className="  flex flex-col justify-center items-center ">
           {classNameTitle.map((item, index) => (
-            <span key={index} className={`${item.styleTitle}`}>
+            <span key={index} className={`${item.styleTitle}  `}>
               {item.title.skill}
             </span>
           ))}
-        <div className="max-w-[600px] ml-[2rem]" >
-        <span className=" font-[500] mb-[1.5rem]">USING NOW:</span>
-          <ul className="grid lg:grid-cols-5  md:auto-cols-max ">
+        <div className="ml-[2rem]" >
+        <span className="block font-[500] mb-[1.2rem]">USING NOW:</span>
+          <ul className=" grid grid-cols-3 lg:grid-cols-6 ">
             {skill.map((item, index) => (
               <>
                 {item.usingnow.map((item, index)=>
@@ -121,10 +118,10 @@ const Skill = (props) => {
         </div>
         </div>
 
-        <div className=" mt-[2.5rem] flex flex-col justify-center items-center ">
+        <div className=" mt-[2.5rem] ml-0 flex flex-col justify-center items-center lg:ml-[-8rem] ">
          <div className="max-w-[600px] ml-[2rem]" >
-         <span className="font-[500]   mb-[1.5rem]">LEARNING:</span>
-          <ul className="grid lg:grid-cols-5  md:auto-cols-max">
+         <span className="block font-[500]   mb-[1.2rem]">LEARNING:</span>
+          <ul className=" grid grid-cols-3 lg:grid-cols-6">
             {skill.map((item, index) => (
               <>
                 {item.learing.map((item, index)=>

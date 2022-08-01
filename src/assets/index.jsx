@@ -22,7 +22,8 @@ import cshap from './images/cshap.svg'
 import asp from './images/asp.svg'
 import mooge from './images/mooge.svg'
 import native from './images/native.svg'
+import portfolio from './images/portfolio.PNG'
 export {firebase,bootstrap,cshap,asp,mooge,native,
     figma,mysql,flutter,sass,
-    node,
+    node,portfolio,
     sql,tailwindcss,music, food,logo, bgHeader,css,js,html,react ,project1,avatar};
