@@ -7,7 +7,7 @@ import "./section.scss";
 const Section = () => {
   return (
     <section >
-      <div className="flex lg:flex-row justify-around items-center  md:flex flex-col  ">
+      <div className="flex lg:flex-row justify-around   items-center lg:mt-[6rem]  md:flex flex-col  ">
         <div className="">
           <h3 className="lg:text-[50px] animate-charcter ">Hi, Mình là Hưng, web developer</h3>
         </div>
@@ -16,7 +16,7 @@ const Section = () => {
           </div>
         
       </div>
-     <div className="item-center lg:flex lg:items-start lg:justify-start flex-col lg:ml-[4rem] mt-[1rem] md:flex justify-center md:items-center ">
+     <div className=" lg:flex lg:items-start lg:justify-start flex-col lg:ml-[4rem] mt-[1rem] md:flex justify-center md:items-center ">
       <Button/>
       <Contact/>
      </div>
