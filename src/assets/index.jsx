@@ -18,12 +18,13 @@ import flutter from './images/flutter.svg'
 
 import mysql from './images/mysql.svg'
 import sass from './images/sass.svg'
-import cshap from './images/cshap.svg'
 import asp from './images/asp.svg'
 import mooge from './images/mooge.svg'
 import native from './images/native.svg'
 import portfolio from './images/portfolio.PNG'
+import cshap from './images/c--4.svg'
+import net from './images/NET_Core_Logo.svg'
 export {firebase,bootstrap,cshap,asp,mooge,native,
-    figma,mysql,flutter,sass,
+    figma,mysql,flutter,sass,net,
     node,portfolio,
     sql,tailwindcss,music, food,logo, bgHeader,css,js,html,react ,project1,avatar};
