@@ -31,15 +31,15 @@ const skillIcon = [
 const WebProject = () => {
   return (
     <>
-      <div className='grid mt-[3rem] px-[2rem] xl:grid-cols-3 gap-[20px] md: auto-cols-max '>
-       <div className='item'>
+      <div className='grid mt-[3rem]  lg:px-[2rem] xl:grid-cols-3 gap-[20px] md: auto-cols-max '>
+       <div className='item mx-auto'>
        {skillIcon.map((item, index) => (
           <div className="text-center">
             <img
               alt=""
               key={index}
               src={item.project1.url}
-              className="w-[400px] mt-[1rem]"
+              className=" w-[320px] lg:w-[400px]   mt-[1rem]"
             />
             <span key={index}>{item.project1.name}</span>
             <ul className="flex justify-center items-center">
@@ -65,14 +65,14 @@ const WebProject = () => {
           </div>
         ))}
        </div>
-       <div className='item '>
+       <div className='item mx-auto '>
        {skillIcon.map((item, index) => (
           <div className="text-center">
             <img
               alt=""
               key={index}
               src={item.project2.url}
-              className="w-[400px] mt-[1rem]"
+              className="w-[320px] lg:w-[400px] mt-[1rem]"
             />
             <span key={index}>{item.project2.name}</span>
             <ul className="flex justify-center items-center">
@@ -99,14 +99,14 @@ const WebProject = () => {
           </div>
         ))}
        </div>
-       <div className='item '>
+       <div className='item mx-auto '>
        {skillIcon.map((item, index) => (
           <div className="text-center">
             <img
               alt=""
               key={index}
               src={item.project3.url}
-              className="w-[400px] mt-[1rem]"
+              className="w-[320px] lg:w-[400px] mt-[1rem]"
             />
             <span key={index}>{item.project3.name}</span>
             <ul className="flex justify-center items-center">
@@ -133,14 +133,14 @@ const WebProject = () => {
           </div>
         ))}
        </div>
-       <div className='item mr-[16px]'>
+       <div className='item mx-auto'>
        {skillIcon.map((item, index) => (
           <div className="text-center">
             <img
               alt=""
               key={index}
               src={item.project4.url}
-              className="w-[400px] mt-[1rem] "
+              className="w-[320px] lg:w-[400px] mt-[1rem] "
             />
             <span key={index}>{item.project4.name}</span>
             <ul className="flex justify-center items-center">
