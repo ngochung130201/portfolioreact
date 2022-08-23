@@ -31,7 +31,7 @@ const skillIcon = [
 const WebProject = () => {
   return (
     <>
-      <div className='grid mt-[3rem]  xl:grid-cols-3 gap-[20px] md: auto-cols-max '>
+      <div className='grid mt-[3rem] px-[2rem] xl:grid-cols-3 gap-[20px] md: auto-cols-max '>
        <div className='item'>
        {skillIcon.map((item, index) => (
           <div className="text-center">
@@ -72,7 +72,7 @@ const WebProject = () => {
               alt=""
               key={index}
               src={item.project2.url}
-              className="max-w-[400px] mt-[1rem]"
+              className="w-[400px] mt-[1rem]"
             />
             <span key={index}>{item.project2.name}</span>
             <ul className="flex justify-center items-center">
@@ -106,7 +106,7 @@ const WebProject = () => {
               alt=""
               key={index}
               src={item.project3.url}
-              className="max-w-[400px] mt-[1rem] ml-[20px]"
+              className="w-[400px] mt-[1rem]"
             />
             <span key={index}>{item.project3.name}</span>
             <ul className="flex justify-center items-center">
@@ -133,14 +133,14 @@ const WebProject = () => {
           </div>
         ))}
        </div>
-       <div className='item '>
+       <div className='item mr-[16px]'>
        {skillIcon.map((item, index) => (
           <div className="text-center">
             <img
               alt=""
               key={index}
               src={item.project4.url}
-              className="max-w-[400px] mt-[1rem] ml-[20px]"
+              className="w-[400px] mt-[1rem] "
             />
             <span key={index}>{item.project4.name}</span>
             <ul className="flex justify-center items-center">
