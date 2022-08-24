@@ -25,7 +25,8 @@ import portfolio from './images/portfolio.PNG'
 import cshap from './images/c--4.svg'
 import net from './images/NET_Core_Logo.svg'
 import blog from './images/Blog.PNG'
+import anime from './images/anime.PNG'
 export {firebase,bootstrap,cshap,asp,mooge,native,
     figma,mysql,flutter,sass,net,blog,
-    node,portfolio,
+    node,portfolio,anime,
     sql,tailwindcss,music, food,logo, bgHeader,css,js,html,react ,project1,avatar};
