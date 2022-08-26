@@ -20,7 +20,7 @@ const About = props => {
        
         
           <p className="max-w-[760px] px-[2rem] text-justify leading-[2rem]">
-          Hello, my name is Huynh Ngoc Hung, I am a web developer, I am always learning technology and I consider it my hobby
+          Hello, my name is Huynh Ngoc Hung  a web developer. I am always learning technology and I consider it my hobby
           </p>
         </div>
       </div>
