@@ -26,7 +26,7 @@ const skillIcon = [
       skill: [sql,net,bootstrap],
     },
     project5: {
-      name: "Anime Movie",
+      name: "Anime Movie(Chưa hoàn chỉnh)",
       url: anime,
       skill: [html,css,tailwindcss,js],
     },

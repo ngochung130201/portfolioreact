@@ -20,9 +20,7 @@ const About = props => {
        
         
           <p className="max-w-[760px] px-[2rem] text-justify leading-[2rem]">
-            Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem
-            varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna
-            quis libero viverra facilisis ut ac est.
+          Hello, my name is Huynh Ngoc Hung, I am a web developer, I am always learning technology and I consider it my hobby
           </p>
         </div>
       </div>
