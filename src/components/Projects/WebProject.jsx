@@ -28,7 +28,7 @@ const skillIcon = [
     project5: {
       name: "Anime Movie(Chưa hoàn chỉnh)",
       url: anime,
-      skill: [html,css,tailwindcss,js],
+      skill: [html,css,tailwindcss,js,net,sql],
     },
   
   },
