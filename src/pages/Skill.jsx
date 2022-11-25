@@ -1,7 +1,7 @@
 import Aos from "aos";
 import React, { useEffect } from "react";
 import "aos/dist/aos.css";
-import { html, react, js,net,native, css,tailwindcss,sql,node,sass,figma,bootstrap,mysql,c,flutter,firebase, asp, cshap} from "../assets";
+import { html, react, js,net,native, css,tailwindcss,sql,node,sass,figma,bootstrap,mysql,c,flutter,firebase, asp, cshap, Angular} from "../assets";
 const Skill = (props) => {
   const { classNameTitle,animation} = props;
   useEffect(()=>{
@@ -39,6 +39,10 @@ const Skill = (props) => {
         avatar: react,
       },
       {
+        name: "Angular",
+        avatar: Angular,
+      },
+      {
         name: "SQL SERVER",
         avatar: sql,
       },
@@ -54,6 +58,7 @@ const Skill = (props) => {
         name: "Firebase",
         avatar: firebase,
       },
+      
      
       
     ],

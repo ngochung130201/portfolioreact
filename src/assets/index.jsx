@@ -26,8 +26,10 @@ import cshap from './images/c--4.svg'
 import net from './images/NET_Core_Logo.svg'
 import blog from './images/Blog.PNG'
 import anime from './images/anime.PNG'
-import gamestore from './images/gamestore.PNG'
+import gamestore from './images/gamestore.PNG';
+import Angular from './images/Angular_full_color_logo.svg.png'
+import BanGiay from './images/WebBanGiay.png';
 export {firebase,bootstrap,cshap,asp,mooge,native,gamestore,
     figma,mysql,flutter,sass,net,blog,
     node,portfolio,anime,
-    sql,tailwindcss,music, food,logo, bgHeader,css,js,html,react ,project1,avatar};
+    sql,tailwindcss,music, food,logo, bgHeader,css,js,html,react ,project1,avatar,Angular,BanGiay};
